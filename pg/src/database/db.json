@@ -1,0 +1,35 @@
+{
+    "cursos": [
+      {
+        "nome": "TÉCNICO EM LOGÍSTICA",
+        "cidade": "Aracruz",
+        "duracao": "960",
+        "turno": "Noturno",
+        "modalidade": "Semipresencial",
+        "data": "17/02/2025",
+        "historia": "Lore lore lore lore lore lore lore lore lore lore lore lore lore lore lore lore lore",
+        "foto": "https://fluxoconsultoria.poli.ufrj.br/wp-content/uploads/2023/06/image-32.png"
+      },
+      {
+        "nome": "TÉCNICO EM LOGÍSTICA",
+        "cidade": "Aracruz",
+        "duracao": "960",
+        "turno": "Noturno",
+        "modalidade": "Semipresencial",
+        "data": "17/02/2025",
+        "historia": "Lore lore lore lore lore lore lore lore lore lore lore lore lore lore lore lore lore",
+        "foto": "https://fluxoconsultoria.poli.ufrj.br/wp-content/uploads/2023/06/image-32.png"
+      },
+      {
+        "nome": "TÉCNICO EM LOGÍSTICA",
+        "cidade": "Aracruz",
+        "duracao": "960",
+        "turno": "Noturno",
+        "modalidade": "Semipresencial",
+        "data": "17/02/2025",
+        "historia": "Lore lore lore lore lore lore lore lore lore lore lore lore lore lore lore lore lore",
+        "foto": "https://fluxoconsultoria.poli.ufrj.br/wp-content/uploads/2023/06/image-32.png"
+      }
+    ]
+  }
+  
