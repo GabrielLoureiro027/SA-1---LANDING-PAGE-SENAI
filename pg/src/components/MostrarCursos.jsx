@@ -25,7 +25,7 @@ export default function MostrarCursos() {
             <Card.Text>
               {curso.historia}
             </Card.Text>
-            <Link to="/curso.nome/id">
+            <Link to="/curso.nome/:id">
             <Button variant="primary"
             style={{padding: "8px 60px"}}>Ir</Button>
             </Link>
