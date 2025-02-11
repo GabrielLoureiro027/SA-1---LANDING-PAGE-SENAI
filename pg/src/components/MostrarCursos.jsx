@@ -1,7 +1,7 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import React, { useEffect, useState } from 'react';
-import db from '../database/db.json';  // Caminho correto para o seu arquivo db.json
+import db from '../database/db.json';
 import { Link } from 'react-router-dom';
 
 
@@ -27,9 +27,9 @@ export default function MostrarCursos() {
             <Card.Text>
               {curso.historia}
             </Card.Text>
-            <Link to="/curso.nome/:id">
-            <Button variant="primary"
-            style={{padding: "8px 60px"}}>Ir</Button>
+            <Link to={`/curso/${curso.nome}/${curso.id}`}>
+            <Button variant="primary" to={`/curso/${curso.nome}/${curso.id}`}
+            style={{padding: "8px 60px" }}>Ir</Button>
             </Link>
           </Card.Body>
         </Card>
