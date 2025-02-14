@@ -2,7 +2,7 @@
     "cursos": [
       {
         "id": "1",
-        "nome": "TÉCNICO EM LOGÍSTICA",
+        "nome": "TÉCNICO EM SEGURANÇA",
         "cidade": "Aracruz",
         "duracao": "960",
         "turno": "Noturno",
@@ -24,7 +24,7 @@
       },
       {
         "id": "3",
-        "nome": "TÉCNICO EM LOGÍSTICA",
+        "nome": "TÉCNICO AUTOMOTIVO",
         "cidade": "Aracruz",
         "duracao": "960",
         "turno": "Noturno",

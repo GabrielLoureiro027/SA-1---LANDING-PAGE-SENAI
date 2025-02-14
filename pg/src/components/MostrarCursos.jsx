@@ -5,12 +5,13 @@ import db from '../database/db.json';
 import { Link } from 'react-router-dom';
 
 
-
 export default function MostrarCursos() {
   const [cursos, setCursos] = useState([]);
-
+  // *Declaração do estado 'cursos' com o hook useState, inicializado como um array vazio.
+  // *Declaração do estado 'setCursos' com o hook useState, inicializado como uma função que atualiza o estado 'cursos'.
+   
   useEffect(() => {
-    setCursos(db.cursos);
+    setCursos(db.cursos); 
   }, []);
 
   return (
@@ -27,8 +28,8 @@ export default function MostrarCursos() {
             <Card.Text>
               {curso.historia}
             </Card.Text>
-            <Link to={`/curso/${curso.nome}/${curso.id}`}>
-            <Button variant="primary" to={`/curso/${curso.nome}/${curso.id}`}
+            <Link to={`/curso/${curso.id}`}>
+            <Button variant="primary" 
             style={{padding: "8px 60px" }}>Ir</Button>
             </Link>
           </Card.Body>

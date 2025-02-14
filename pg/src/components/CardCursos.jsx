@@ -1,16 +1,21 @@
-import React, { useState, useEffect } from 'react'
+import CardProps from '../../props/CardProps';
 import db from '../database/db.json';
+import { useEffect,useState } from 'react';
 
-export default function CardCursos() {
-  const [cursos, setCursos] = useState([]);
+const CardCursos = () => {
 
+const [cursos, setCursos] = useState([]);
   useEffect(() => {
     setCursos(db.cursos);
   }, []);
 
   return (
-    <div>
-      <h1>teste</h1>
-    </div>
-  )
+    <>
+        {cursos.map((curso,) => (
+          <CardProps />
+        ))}
+      </>
+    )
 }
+
+export default CardCursos
