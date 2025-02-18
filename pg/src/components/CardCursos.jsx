@@ -12,7 +12,7 @@ const [cursos, setCursos] = useState([]);
   return (
     <>
         {cursos.map((curso,) => (
-          <CardProps />
+          <h1>doifygaey</h1>
         ))}
       </>
     )
